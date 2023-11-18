@@ -10,8 +10,8 @@ pipeline {
         stage ('Building Docker Image'){
             steps {
                 sh 'cd Application && docker build -t devopshubg333/japp:v1 .'
-                sh 'docker login -u devopshubg333 -p Callidus21!@'
-                sh 'docker push devopshubg333/japp:v1'
+                sh 'docker login -u rameshkora89 -p Ww950288@6726$'
+                sh 'docker push rameshkora89/japp:v1'
             }
         }
     }
